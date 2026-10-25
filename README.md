@@ -1,30 +1,5 @@
 
 # CaseStudy1DDS
----
-title: "DDSAnalytics: Predicting Employee Attrition"
-subtitle: "Case Study 1 - MSDS 6306 Doing Data Science"
-author: "Chinedu Okoro"
-date: "`r format(Sys.Date(), '%B %d, %Y')`"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    toc_depth: 3
-    number_sections: true
-    theme: flatly
-    code_folding: show
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, fig.align = "center")
-library(dplyr)
-library(ggplot2)
-library(e1071)
-library(class)
-library(caret)
-library(gridExtra)
-library(corrplot)
-```
 
 # Executive Summary
 
